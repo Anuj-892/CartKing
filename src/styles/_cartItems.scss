@@ -1,0 +1,39 @@
+.cart-item {
+    display: flex;
+    gap: 20px;
+
+    .info {
+        .count {
+            margin: 1em;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            p {
+                font-size: 1.1rem;
+            }
+
+            .btn-group {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                button {
+                    background-color: rgb(221, 217, 217);
+                    border: none;
+                    font-size: 1.1rem;
+                    padding: .3em;
+                }
+            }
+        }
+
+        #remove-btn {
+           background-color: black;
+           color: white;
+           border: none;
+           border-radius: 5px;
+           padding: .8em 2em;
+           cursor: pointer;
+        }
+    }
+}
